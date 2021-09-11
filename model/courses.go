@@ -8,3 +8,7 @@ type Person struct {
 	ID int
 }
 
+type Principal struct {
+	Details Person
+	Rank string
+}

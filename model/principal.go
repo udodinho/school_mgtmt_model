@@ -13,3 +13,8 @@ type Principal struct {
 }
 
 var StudentProfile = students.StudentProfile
+
+func (p Principal) Expulsion(key int) map[int]students.Student {
+	for i := range StudentProfile {
+		if key == i {
+			delete(StudentProfile,i)

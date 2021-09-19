@@ -11,3 +11,5 @@ type Principal struct {
 	Details Person
 	Rank string
 }
+
+var StudentProfile = students.StudentProfile

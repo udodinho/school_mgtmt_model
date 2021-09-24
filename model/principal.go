@@ -21,3 +21,9 @@ func (p Principal) Expulsion(key int) map[int]students.Student {
 	}
 	return StudentProfile
 }
+
+var applicantBio = applicants.ApplicantsBio
+
+func (p Principal) Admin() string {
+	returnString := ""
+}

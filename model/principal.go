@@ -26,6 +26,16 @@ func (p Principal) Expulsion(key int) map[int]students.Student {
 
 var applicantBio = applicants.ApplicantsBio
 
+var headAdmin  =  Principal {
+	Details: Persons{
+		FirstName: "Kufre",
+		LastName: "Ndudu",
+		Age: 60,
+		Identity:     "VC" ,
+	},
+	Rank: "Vice Chancellor",
+}
+
 func (p Principal) Admin() string {
 	returnString := ""
 	for _, val := range applicantBio {

@@ -6,3 +6,12 @@ type Applicant struct {
 	Age int
 	gender string
 }
+
+
+var ApplicantsBio = map[int]Applicant {
+	1: {
+		firstName: "Eunice",
+		lastName: "Nkemakolam",
+		Age: 30,
+		gender: "Female",
+	},

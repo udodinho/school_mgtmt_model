@@ -27,3 +27,10 @@ var ApplicantsBio = map[int]Applicant {
 		Age: 30,
 		gender: "Female",
 	},
+	4: {
+		firstName: "Peter",
+		lastName: "Friday",
+		Age: 20,
+		gender: "Male",
+	},
+}

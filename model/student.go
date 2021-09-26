@@ -20,3 +20,9 @@ var StudentProfile = map[int]Student  {
 		Score:    39,
 
 	},
+	30:{ FirstName: "Khaleed",
+		LastName: "Musa",
+		Age:      23,
+		Dept:     "Mathematics",
+		Score:    59,
+	},

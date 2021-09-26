@@ -5,3 +5,11 @@ type Student struct {
 	Age, Score                int
 	Course []string
 }
+
+var StudentProfile = map[int]Student  {
+	10:{ FirstName: "Mercy",
+		LastName: "Adebayo",
+		Age:      24,
+		Dept:     "MicroBiology",
+		Score:    70,
+	},

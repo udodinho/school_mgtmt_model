@@ -51,3 +51,12 @@ var StudentProfile = map[int]Student  {
 		Score:    40,
 	},
 }
+
+var Victor = Student{
+	"Victor",
+	"Kelechi",
+	"Technology",
+	23,
+	89,
+	[]string{},
+}

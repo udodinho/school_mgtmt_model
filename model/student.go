@@ -32,3 +32,9 @@ var StudentProfile = map[int]Student  {
 		Dept:     "Chemical Engineering",
 
 	},
+	50:{ FirstName: "Faithia",
+		LastName: "Olawale",
+		Age:      20,
+		Dept:     "FST",
+		Score:    90,
+	},

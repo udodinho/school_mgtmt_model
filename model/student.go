@@ -60,3 +60,10 @@ var Victor = Student{
 	89,
 	[]string{},
 }
+
+var course = courses.Courses
+
+func (s *Student) TakeCourse(key int) map[int]Student {
+	s.Course = append(s.Course, course[key])
+	return nil
+}

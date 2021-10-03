@@ -9,3 +9,10 @@ type Teachers struct {
 	Identity string
 
 }
+
+var seniorLecturer = Teachers{
+	FirstName: "Alex",
+	LastName:  "Okocha",
+	Age:       40,
+	Identity:  "Lecturer",
+}

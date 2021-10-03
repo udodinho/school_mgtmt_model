@@ -1,4 +1,8 @@
-package model
+package student
+
+import (
+	"school_mgmt/model/courses"
+)
 
 type Student struct {
 	FirstName, LastName, Dept string
@@ -6,7 +10,7 @@ type Student struct {
 	Course []string
 }
 
-var StudentProfile = map[int]Student  {
+var StudentProfile = map[int]Student{
 	10:{ FirstName: "Mercy",
 		LastName: "Adebayo",
 		Age:      24,

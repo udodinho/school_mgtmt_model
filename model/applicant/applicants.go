@@ -1,4 +1,4 @@
-package model
+package applicant
 
 type Applicant struct {
 	firstName string
@@ -8,7 +8,7 @@ type Applicant struct {
 }
 
 
-var ApplicantsBio = map[int]Applicant {
+var ApplicantsBio = map[int]Applicant{
 	1: {
 		firstName: "Eunice",
 		lastName: "Nkemakolam",

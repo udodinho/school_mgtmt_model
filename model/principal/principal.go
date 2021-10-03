@@ -1,6 +1,10 @@
-package model
+package principal
 
-import "fmt"
+import (
+	"fmt"
+	"school_mgmt/model/applicant"
+	"school_mgmt/model/student"
+)
 
 type Person struct {
 	FirstName string
@@ -11,12 +15,12 @@ type Person struct {
 
 type Principal struct {
 	Details Person
-	Rank string
+	Rank    string
 }
+var StudentProfile = student.StudentProfile
 
-var StudentProfile = students.StudentProfile
 
-func (p Principal) Expulsion(key int) map[int]students.Student {
+func (p Principal) Expulsion(key int) map[int]student.Student {
 	for i := range StudentProfile {
 		if key == i {
 			delete(StudentProfile,i) 		}
@@ -24,9 +28,9 @@ func (p Principal) Expulsion(key int) map[int]students.Student {
 	return StudentProfile
 }
 
-var applicantBio = applicants.ApplicantsBio
+var applicantBio = applicant.ApplicantsBio
 
-var headAdmin  =  Principal {
+var headAdmin  =  Principal{
 	Details: Persons{
 		FirstName: "Kufre",
 		LastName: "Ndudu",

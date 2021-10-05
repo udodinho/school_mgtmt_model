@@ -10,7 +10,7 @@ type Person struct {
 	FirstName string
 	LastName string
 	Age int
-	ID int
+	Identity string
 }
 
 type Principal struct {
@@ -31,7 +31,7 @@ func (p Principal) Expulsion(key int) map[int]student.Student {
 var applicantBio = applicant.ApplicantsBio
 
 var headAdmin  =  Principal{
-	Details: Persons{
+	Details: Person{
 		FirstName: "Kufre",
 		LastName: "Ndudu",
 		Age: 60,

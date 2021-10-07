@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"school_mgmt/model/applicant"
 	"school_mgmt/model/principal"
 	"school_mgmt/model/student"
@@ -27,3 +28,21 @@ var seniorLecturer = teacher.Teachers{
 var StudentProfile = student.StudentProfile
 
 var applicantBio = applicant.ApplicantsBio
+
+
+func main() {
+	//headAdmin.Expulsion(70)
+
+	//expelled := headAdmin.Expulsion(70)
+	//fmt.Println(expelled)
+	//admitted := headAdmin.Admin()
+	//fmt.Println(admitted)
+	//graded := seniorLecturer.Grading()
+	//fmt.Println(graded)
+
+	var victor = student.Victor
+	victor.TakeCourse(3)
+	victor.TakeCourse(1)
+	fmt.Println(victor)
+
+}
